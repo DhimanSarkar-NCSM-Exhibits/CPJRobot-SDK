@@ -1,0 +1,200 @@
+# ============================================================
+# C / C++ Development with CMake
+# VS Code
+# ============================================================
+
+# ------------------------------------------------------------
+# Operating System Files
+# ------------------------------------------------------------
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.nfs*
+
+# ------------------------------------------------------------
+# VS Code
+# ------------------------------------------------------------
+
+# Keep project-specific configuration files.
+# Ignore only temporary/editor-specific files.
+
+.vscode/*.log
+.vscode/*.tmp
+.vscode/.ropeproject/
+
+.history/
+
+# Workspace backups
+*.code-workspace.backup
+
+# ------------------------------------------------------------
+# CMake Build Directories
+# ------------------------------------------------------------
+
+build/
+Build/
+build-*/
+cmake-build-*/
+cmake-build-debug/
+cmake-build-release/
+
+out/
+bin/
+obj/
+
+# ------------------------------------------------------------
+# CMake Generated Files
+# ------------------------------------------------------------
+
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+compile_commands.json
+
+# Generated Makefiles
+Makefile
+
+# CMake user/local configuration
+CMakeUserPresets.json
+
+# ------------------------------------------------------------
+# Ninja Build System
+# ------------------------------------------------------------
+
+.ninja_deps
+.ninja_log
+build.ninja
+rules.ninja
+
+# ------------------------------------------------------------
+# Compiled Object / Library Files
+# ------------------------------------------------------------
+
+*.o
+*.obj
+*.lo
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.la
+*.lai
+
+# ------------------------------------------------------------
+# Executables and Binary Output
+# ------------------------------------------------------------
+
+*.exe
+*.out
+*.app
+*.elf
+*.hex
+*.bin
+*.uf2
+*.map
+
+# ------------------------------------------------------------
+# Compiler Generated Files
+# ------------------------------------------------------------
+
+*.d
+*.dep
+*.su
+*.pch
+*.gch
+
+# ------------------------------------------------------------
+# Debugging / Profiling
+# ------------------------------------------------------------
+
+*.dSYM/
+*.pdb
+*.ilk
+*.idb
+*.gcda
+*.gcno
+*.gcov
+*.profraw
+*.profdata
+
+# ------------------------------------------------------------
+# Testing / Coverage
+# ------------------------------------------------------------
+
+Testing/
+.coverage
+coverage.xml
+htmlcov/
+.pytest_cache/
+
+# ------------------------------------------------------------
+# Temporary / Backup Files
+# ------------------------------------------------------------
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*.orig
+*.rej
+*~
+
+tmp/
+temp/
+.cache/
+
+# ------------------------------------------------------------
+# Logs
+# ------------------------------------------------------------
+
+*.log
+logs/
+
+# ------------------------------------------------------------
+# Python (CMake helper scripts)
+# ------------------------------------------------------------
+
+__pycache__/
+*.py[cod]
+
+.venv/
+venv/
+env/
+ENV/
+
+# ------------------------------------------------------------
+# IDEs / Editors
+# ------------------------------------------------------------
+
+# JetBrains
+.idea/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ------------------------------------------------------------
+# Miscellaneous
+# ------------------------------------------------------------
+
+*.pid
+.DS_Store
