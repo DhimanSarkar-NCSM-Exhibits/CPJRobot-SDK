@@ -1,7 +1,11 @@
 cmake_minimum_required(VERSION 3.10)
-project(LiDAR_getData)
 
-add_subdirectory(sdk_dir)
+set(CMAKE_C_COMPILER   gcc)
+set(CMAKE_CXX_COMPILER g++)
+
+project(LiDAR_getData CXX C)
+
+add_subdirectory("../C_CPP_SDK" build)
 
 add_executable(${PROJECT_NAME} main.cpp)
 
