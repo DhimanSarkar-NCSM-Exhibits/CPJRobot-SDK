@@ -1,0 +1,156 @@
+# ============================================================
+# Unity Project
+# ============================================================
+
+
+# CUSOTM
+# **
+# !Assets/Scripts/*.cs
+# !Assets/StreamingAssets/PUT EXECUTABLE BINARIES AT THIS LOCATOIN
+
+# ------------------------------------------------------------
+# Unity generated folders
+# ------------------------------------------------------------
+
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Pp]roject[Ss]ettings/
+[Pp]ackages/
+[Aa]ssets/**
+![Aa]ssets/[Ss]cripts/
+![Aa]ssets/[Ss]treaming[Aa]ssets/
+[Aa]ssets/[Ss]treaming[Aa]ssets/**
+![Aa]ssets/[Ss]cripts/**
+![Aa]ssets/[Ss]treaming[Aa]ssets/PUT EXECUTABLE BINARIES AT THIS LOCATOIN
+
+# Unity Package Manager cache
+[Mm]emoryCaptures/
+[Pp]rofiler/
+
+# ------------------------------------------------------------
+# Unity generated files
+# ------------------------------------------------------------
+
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.VC.VC.opendb
+*.meta
+
+# ------------------------------------------------------------
+# Unity crash reports
+# ------------------------------------------------------------
+
+sysinfo.txt
+crashlytics-build.properties
+
+# ------------------------------------------------------------
+# Unity Asset Store
+# ------------------------------------------------------------
+
+Assets/AssetStoreTools*
+
+# ------------------------------------------------------------
+# IDE - Visual Studio
+# ------------------------------------------------------------
+
+.vs/
+.vscode/
+.idea/
+.gradle/
+
+# ------------------------------------------------------------
+# IDE - Rider
+# ------------------------------------------------------------
+
+.idea/
+*.sln.iml
+
+# ------------------------------------------------------------
+# OS temporary files
+# ------------------------------------------------------------
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.nfs*
+
+# ------------------------------------------------------------
+# Temporary / backup files
+# ------------------------------------------------------------
+
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+*.rej
+*.swp
+*.swo
+*~
+
+tmp/
+temp/
+
+# ------------------------------------------------------------
+# Logs
+# ------------------------------------------------------------
+
+*.log
+logs/
+
+# ------------------------------------------------------------
+# Build artifacts
+# ------------------------------------------------------------
+
+*.apk
+*.aab
+*.app
+*.unitypackage
+*.ipa
+*.exe
+*.dll
+*.so
+*.dylib
+*.class
+
+# ------------------------------------------------------------
+# Coverage / testing
+# ------------------------------------------------------------
+
+[Tt]est[Rr]esult*/
+[Cc]overage/
+
+# ------------------------------------------------------------
+# Miscellaneous
+# ------------------------------------------------------------
+
+*.pid
+*.stackdump
