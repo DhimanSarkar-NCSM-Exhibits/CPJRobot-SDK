@@ -20,7 +20,7 @@ public static class LiDARService
             // FORMAT: [[polar_r], [polar_theta], [polar_intensity]]
         }
     */
-    
+
     static Process p;
 
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
